@@ -17,7 +17,7 @@ FILES:
 - index.html     => Main HTML file
 - style.css      => Custom styles for layout and design
 - script.js      => JavaScript to handle interactivity
-- readme.txt     => Project description (this file)
+- README.md     => Project description (this file)
 
 HOW TO USE:
 -----------
