@@ -29,11 +29,11 @@ HOW TO USE:
 
 FILE STRUCTURE:
 ---------------
-bogo-pricing-ui/
+'''Interactive-Pricing-Selector/
 ├── index.html
 ├── style.css
 ├── script.js
-└── readme.txt
+└── readme.txt '''
 
 TECHNOLOGIES USED:
 ------------------
