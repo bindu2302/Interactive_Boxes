@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOGO Pricing UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <div class="centered-line">
+        <span>YAY! It's BOGO</span>
+      </div>
+    </div>
+
+    <!-- 1 Unit -->
+    <div class="box" data-unit="1">
+      <label class="unit-label">
+        <input type="radio" name="unit" />
+        <span class="custom-radio"></span>
+        <span class="unit-text">1 Unit</span>
+        <span class="badge">10% Off</span>
+        <div class="price-group">
+          <div class="price">$10.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+        <div class="box-content dynamic-options">
+        <div class="table-header">
+          <span></span>
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+        <div class="table-row">
+          <span>#1</span>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Red</option><option>Blue</option></select>
+        </div>
+        <div class="table-row">
+          <span>#2</span>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Red</option><option>Blue</option></select>
+        </div>
+      </div>
+      
+      <div class="box-content static-info">Standard Price</div>
+    </div>
+
+    <!-- 2 Unit - Most Popular -->
+    <div class="box active" data-unit="2">
+      <div class="most-popular-tag">
+        MOST POPULAR
+        <span class="notch"></span>
+      </div>
+      <label class="unit-label">
+        <input type="radio" name="unit" checked />
+        <span class="custom-radio"></span>
+        <span class="unit-text">2 Unit</span>
+        <span class="badge">20% Off</span>
+        <div class="price-group">
+          <div class="price">$18.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+      <div class="box-content dynamic-options">
+        <div class="table-header">
+          <span></span>
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+        <div class="table-row">
+          <span>#1</span>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Red</option><option>Blue</option></select>
+        </div>
+        <div class="table-row">
+          <span>#2</span>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Red</option><option>Blue</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Unit -->
+    <div class="box" data-unit="3">
+      <label class="unit-label">
+        <input type="radio" name="unit" />
+        <span class="custom-radio"></span>
+        <span class="unit-text">3 Unit</span>
+        <span class="badge">30% Off</span>
+        <div class="price-group">
+          <div class="price">$24.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+      <div class="box-content dynamic-options">
+        <div class="table-header">
+          <span></span>
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+        <div class="table-row">
+          <span>#1</span>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Red</option><option>Blue</option></select>
+        </div>
+        <div class="table-row">
+          <span>#2</span>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>Red</option><option>Blue</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="delivery">Free Delivery</span>
+      <span class="total">Total : $18.00 USD</span>
+    </div>
+
+    <button class="cart-btn">
+      <span class="plus-icon">+</span>
+      Add to Cart
+    </button>
+    <div class="powered">@ Powered by Pumper</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
