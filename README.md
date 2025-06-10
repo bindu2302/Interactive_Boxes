@@ -35,7 +35,7 @@ Interactive-Pricing-Selector/
 ├── index.html
 ├── style.css
 ├── script.js
-└── readme.txt
+└── README.md
 ```
 
 TECHNOLOGIES USED:
