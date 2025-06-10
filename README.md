@@ -44,12 +44,15 @@ TECHNOLOGIES USED:
 - CSS3
 - Vanilla JavaScript (No frameworks)
 
-LICENSE:
---------
-This project is licensed under the MIT License.
-
 AUTHOR:
 -------
 Himabindu Nara  
 📧 Email: naarahimabindu@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/nara-himabindu
+
+
+### 📸Screenshots:
+# UI: 
+1. https://prnt.sc/Vcoe2SPsiPsq
+2. https://prnt.sc/aZQ_TbMpzA7H
+3. https://prnt.sc/93VbMsXLBbZQ
