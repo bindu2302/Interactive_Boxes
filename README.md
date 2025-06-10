@@ -27,13 +27,16 @@ HOW TO USE:
 4. Use the dropdowns inside the expanded section to select color and size.
 5. Click the 'Add to Cart' button to simulate a purchase action.
 
-FILE STRUCTURE:
----------------
-'''Interactive-Pricing-Selector/
+
+## 📁 Project Structure
+
+```plaintext
+Interactive-Pricing-Selector/
 ├── index.html
 ├── style.css
 ├── script.js
-└── readme.txt '''
+└── readme.txt
+```
 
 TECHNOLOGIES USED:
 ------------------
